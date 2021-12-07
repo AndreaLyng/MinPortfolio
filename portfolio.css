@@ -1,0 +1,36 @@
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: black;
+}
+html, body {
+  box-sizing: border-box;
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+    .header {
+      background-color: #466564;
+    }
+    .menu {
+      background-color: #E27900;
+    }
+    .main {
+      background-color: #ABD4DF;
+    }
+    .right {
+      background-color: #ABD4DF;
+    }
+    .footer {
+      background-color: #466564;
+    }
+
+body {
+  max-width: 1500px;
+  margin: auto;
+}
