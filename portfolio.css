@@ -1,14 +1,47 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  background: #ABD4DF;
+  grid-area: n;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'PT Mono';font-size: 22px;
+  letter-spacing: 3px;
+  min-height: 8vh;
+}
+.logo{
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 22px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:#466564;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 body {
-  background-color: #ABD4DF;
+  background-color: #ffffff;
 }
 
 .container{
   display: grid;
   height: 300vh;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-  grid-template-rows: 0.1fr 0.6fr 1fr 1fr 1fr 0.4fr;
+  grid-template-rows: 0.2fr 0.6fr 1fr 1fr 1fr 0.4fr;
   grid-template-areas:
-  ". n n n ."
   ". h h h ."
   ". p1 t1 p2 ."
   ". p3 v p4 ."
@@ -16,13 +49,14 @@ body {
   ". f f f ."
 }
 
-nav{
-  background: #466564;
-  grid-area: n;
-}
 .header {
-  background-image: url('header_test3.png');
-
+  background-image: url('header_test10.png');
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 140px;
+  height: 400px;
+  width:100%;
   grid-area: h;
 }
 
@@ -79,9 +113,8 @@ nav{
 @media only screen and (max-width: 550px) {
   .container{
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 0.8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
     grid-template-areas:
-    "n n"
     "h h"
     "p1 p2"
     "t1 t1"
