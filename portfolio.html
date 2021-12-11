@@ -1,39 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device, initial-scale=1.0">
-    <title>Andrea Lyng</title>
     <link rel="stylesheet" href="portfolio.css">
-    <link href='https://fonts.googleapis.com/css?family=PT Mono' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=PT Mono' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
   </head>
+
   <body>
     <header>
       <nav>
         <ul class="nav-links">
-          <li><a href="#">FORSIDE<a/></li>
+          <li><a href="#">FORSIDE</a></li>
         </ul>
         <div class="logo">
           <h4>ANDREA LYNG</h4>
         </div>
         <ul class="nav-links">
-          <li><a href="#">OM MIG<a/></li>
+          <li><a href="#">OM MIG</a></li>
         </ul>
       </nav>
+      <img src="header_text.png" alt="picture" class="cover">
     </header>
-    <div class="container">
-      <div class="header">Andrea Lyng </div>
-      <div class="picture1">PICTURE1</div>
-      <div class="picture2">PICTURE2</div>
-      <div class="picture3">PICTURE3</div>
-      <div class="tekst1">TEKST1</div>
-      <div class="video">VIDEO</div>
-      <div class="tekst2">TEKST2</div>
-      <div class="picture4">PICTURE4</div>
-      <div class="picture5">PICTURE5</div>
-      <div class="picture6">PICTURE6</div>
-      <div class="footer">FOOTER</div>
+
+
+    <!-- Tekst -->
+    <div id="main" class="flex-container" style="margin-top:20px; margin-bottom:20px">
+      <div class="column" id="sidebar_left" style="background-color:#466564;">
+        <h2>Column Left</h2>
+        <div class="picture"><img src="julie.png" style="width:100%">Traditionelt Portrætfoto: Julie</div>
+        <div class="picture"><img src="alba4.png" style="width:100%">Kunstnerisk portræt: Alba</div>
+        <div class="picture"><img src="alba1.png" style="width:100%">Kunstnerisk portræt: Alba</div>
+        <div class="picture"><img src="https://cdn.royalcanin-weshare-online.io/UCImMmgBaxEApS7LuQnZ/v2/eukanuba-market-image-puppy-beagle?w=5596&h=2317&rect=574,77,1850,1045&auto=compress,enhance" style="width:100%"></div>
       </div>
+
+
+      <div class="column" id="main_content" style="background-color:#466564;">
+        <h2>Column Main</h2>
+        <div class="text" id="tex1">TEKST1</div>
+        <div class="video">VIDEO</div>
+        <video width="100%" controls><source src="https://www.w3schools.com/html/movie.mp4"></video>
+        <div class="text">TEKST2</div>
+      </div>
+
+
+      <div class="column" id="sidebar_right" style="background-color:#466564;">
+        <h2></h2>
+        <div class="picture"><img src="alba3.png" style="width:100%">Text</div>
+        <div class="picture"><img src="andrea2.png" style="width:100%">Selvportræt</div>
+        <div class="picture"><img src="alba.png" style="width:100%">Text</div>
+        <div class="picture"><img src="https://cdn.royalcanin-weshare-online.io/UCImMmgBaxEApS7LuQnZ/v2/eukanuba-market-image-puppy-beagle?w=5596&h=2317&rect=574,77,1850,1045&auto=compress,enhance" style="width:100%"></div>
+      </div>
+    </div>
   </body>
+
+  <footer class="footer">
+    FOOTER
+  </footer>
+
 </html>
