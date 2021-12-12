@@ -1,5 +1,5 @@
 nav{
-  background: #ABD4DF;
+  background: #30738B;
   grid-area: n;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@ nav{
 }
 .logo{
   text-transform: uppercase;
-  font-family: 'PT Mono';
+  font-family: 'Caveat';
   font-size: 22px;
   letter-spacing: 3px;
 }
@@ -41,13 +41,13 @@ nav{
   list-style: none;
 }
 .nav-links a{
-  color:#466564;
+  color:#ABD4DF;
   text-decoration: none;
   font-weight: bold;
 }
 
 body {
-  background-color: #707070;
+  background-color: #ABD4DF;
 }
 .cover {
   width: 100%;
@@ -70,44 +70,9 @@ body {
 }
 
 .column {
-  color:#ABD4DF;
+  color:#30738B;
+  background-color: #ABD4DF;
   width: 33%;
-}
-
-.picture1{
-  background: #ABD4DF;
-}
-
-.picture2{
-  background: #ABD4DF;
-}
-
-.picture3{
-  background: #ABD4DF;
-}
-
-.tekst1{
-  background: #466564;
-}
-
-.video{
-  background: #E27900;
-}
-
-.tekst2{
-  background: #466564;
-}
-
-.picture4{
-  background: #ABD4DF;
-}
-
-.picture5{
-  background: #ABD4DF;
-}
-
-.picture6{
-  background: #ABD4DF;
 }
 
 .footer{

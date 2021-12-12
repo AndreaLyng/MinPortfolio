@@ -48,6 +48,10 @@ footer .container .kontakt {
   font-weight: bold;
 }
 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
 .picture{
   width: 60%;
   height: auto;
