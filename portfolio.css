@@ -20,6 +20,18 @@ nav{
   font-size: 15px;
   letter-spacing: 2px;
 }
+.ani {
+  width: 500px;
+  height: 500px;
+  background: url('frog.png') 0 0 no-repeat;
+  animation: play 0.7s steps(5) infinite;
+}
+
+@keyframes play {
+  0% {background-position: 0px;}
+  100%{background-position: -2500px;}
+}
+
 .text{
   text-transform: uppercase;
   font-family: 'PT Mono';
