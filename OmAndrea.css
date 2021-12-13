@@ -52,8 +52,7 @@ li a:hover {
 .text{
   width:40%;
   height: auto;
-  background-color: #E27900;
-  display: flex;
+  background-color: #30738B;
 }
 
 .maintext{
@@ -79,8 +78,9 @@ h1{
 
 
 body {
-  background-color: #707070;
+  background-color: #ABD4DF;
 }
+
 .cover {
   width: 100%;
   height: auto;

@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 nav{
   background: #30738B;
   grid-area: n;
@@ -36,11 +40,23 @@ li a:hover {
 .picture {
   text-transform: uppercase;
   font-family: 'PT Mono';
+  width:100%;
+  height: auto;
   font-size: 15px;
   letter-spacing: 2px;
   text-align: center;
   padding: 1% 5%;
 }
+.column img{
+  width:100%;
+  height: auto;
+}
+
+.column video{
+  width:100%;
+  height: auto;
+}
+
 .ani {
   width: 500px;
   height: 500px;
@@ -74,6 +90,7 @@ h1{
 
 .video{
   text-transform: uppercase;
+  width:100%;
   font-family: 'PT Mono';
   font-size: 22px;
   letter-spacing: 2px;
@@ -123,7 +140,6 @@ h2{
 
 footer {
   background: #30738B;
-  grid-area: f;
   padding: 0% 10%;
 }
 
