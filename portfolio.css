@@ -24,6 +24,8 @@ li a:hover {
   font-family: 'PT Mono';
   font-size: 15px;
   letter-spacing: 2px;
+  text-align: center;
+  padding: 1% 5%;
 }
 .ani {
   width: 500px;
@@ -36,13 +38,26 @@ li a:hover {
   0% {background-position: 0px;}
   100%{background-position: -2500px;}
 }
+.maintext{
+  text-transform: ;
+  font-family: 'PT Mono';
+  font-size: 18px;
+  letter-spacing: ;
+  color:#ABD4DF;
+  text-align: center;
+  padding:2% 2%;
+  background-color: #30738B;
+}
 
-.text{
+h1{
   text-transform: uppercase;
   font-family: 'PT Mono';
   font-size: 22px;
   letter-spacing: 2px;
+  color:#30738B;
+  text-align: center;
 }
+
 .video{
   text-transform: uppercase;
   font-family: 'PT Mono';
