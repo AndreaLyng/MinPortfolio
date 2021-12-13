@@ -59,7 +59,7 @@ li a:hover {
 .ani {
   width: 500px;
   height: 500px;
-  background: url('frog.png') 0 0 no-repeat;
+  background: url('images/frog.png') 0 0 no-repeat;
   animation: play 0.7s steps(5) infinite;
 }
 
@@ -77,6 +77,19 @@ li a:hover {
 }
 
 h1{
+  text-transform: uppercase;
+  font-family: 'Caveat';
+  font-size: 22px;
+  letter-spacing: 2px;
+  color:#30738B;
+  text-align: center;
+}
+h1:hover {
+  color: #ABD4DF;
+  background-color:#E27900;
+}
+
+h3{
   text-transform: uppercase;
   font-family: 'PT Mono';
   font-size: 22px;
