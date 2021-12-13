@@ -19,6 +19,20 @@ li a:hover {
   color: #ABD4DF;
 }
 
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width:;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:#ABD4DF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .picture {
   text-transform: uppercase;
   font-family: 'PT Mono';
@@ -63,19 +77,6 @@ h1{
   font-family: 'PT Mono';
   font-size: 22px;
   letter-spacing: 2px;
-}
-.nav-links{
-  display: flex;
-  justify-content: space-around;
-  width:;
-}
-.nav-links li{
-  list-style: none;
-}
-.nav-links a{
-  color:#ABD4DF;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 body {

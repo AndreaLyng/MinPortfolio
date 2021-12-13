@@ -1,5 +1,5 @@
 nav{
-  background: #ABD4DF;
+  background: #30738B;
   grid-area: n;
   display: flex;
   align-items: center;
@@ -8,24 +8,31 @@ nav{
   letter-spacing: 3px;
   min-height: 8vh;
 }
+
 li a:hover {
   color:#E27900
 }
+
 .logo{
   text-transform: uppercase;
   font-family: 'Caveat';
   font-size: 22px;
+  letter-spacing: 3px;
+  color: #ABD4DF;
 }
+
 .nav-links{
   display: flex;
   justify-content: space-around;
   width:;
 }
+
 .nav-links li{
   list-style: none;
 }
+
 .nav-links a{
-  color:#466564;
+  color:#ABD4DF;
   text-decoration: none;
   font-weight: bold;
 }
@@ -34,6 +41,7 @@ li a:hover {
   display: flex;
   flex-wrap: wrap;
 }
+
 .picture{
   width: 60%;
   height: auto;
@@ -47,6 +55,28 @@ li a:hover {
   background-color: #E27900;
   display: flex;
 }
+
+.maintext{
+  text-transform: ;
+  font-family: 'PT Mono';
+  font-size: 18px;
+  letter-spacing: ;
+  color:#ABD4DF;
+  text-align: center;
+  padding:2% 2%;
+  background-color: #30738B;
+  margin: 2% 2%;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'PT Mono';
+  font-size: 22px;
+  letter-spacing: 2px;
+  color:#30738B;
+  text-align: center;
+}
+
 
 body {
   background-color: #707070;
@@ -152,22 +182,43 @@ color:#E27900
 
 @media only screen and (max-width: 769px) {
   .flex-container {
+    flex-wrap: wrap;
     flex-direction: column;
   }
+
+#text1{
+  width: 100%;
+  order: 1;
+}
+
+#pic1{
+  width: 100%;
+  order: 2;
+}
+
+#text2{
+  width: 100%;
+  order: 3;
+}
+
+#pic2{
+  width: 100%;
+  order: 10;
+}
+
+#text3{
+  width: 100%;
+  order: 10;
+}
+
+#pic3{
+  width: 100%;
+  order: 10;
+}
 
    #main_content {
     width: 100%;
     order: 0;
-  }
-
-  div #sidebar_left {
-    width: 100%;
-    order: 10;
-  }
-
-  div #sidebar_right {
-    width: 100%;
-    order: 20;
   }
 
   footer {
