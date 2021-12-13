@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 nav{
   background: #30738B;
   grid-area: n;
@@ -49,10 +53,15 @@ li a:hover {
   display: flex;
 }
 
+.picture img{
+  width:100%;
+  height: auto;
+}
+
 .text{
   width:40%;
   height: auto;
-  background-color: #30738B;
+  background-color:#ABD4DF;
 }
 
 .maintext{
@@ -60,10 +69,10 @@ li a:hover {
   font-family: 'PT Mono';
   font-size: 18px;
   letter-spacing: ;
-  color:#ABD4DF;
+  color:#30738B;
   text-align: center;
   padding:2% 2%;
-  background-color: #30738B;
+  background-color: #ABD4DF;
   margin: 2% 2%;
 }
 
@@ -75,7 +84,9 @@ h1{
   color:#30738B;
   text-align: center;
 }
-
+.text h2{
+  color: #30738B;
+}
 
 body {
   background-color: #ABD4DF;
@@ -99,11 +110,6 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-}
-
-.column {
-  color:#ABD4DF;
-  width: 33%;
 }
 
 .content{
