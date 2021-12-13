@@ -28,7 +28,6 @@ li a:hover {
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width:;
 }
 
 .nav-links li{
@@ -51,6 +50,7 @@ li a:hover {
   height: auto;
   background-color: #ABD4DF;
   display: flex;
+  padding:1%;
 }
 
 .picture img{
@@ -62,13 +62,12 @@ li a:hover {
   width:40%;
   height: auto;
   background-color:#ABD4DF;
+  padding: 1%;
 }
 
 .maintext{
-  text-transform: ;
   font-family: 'PT Mono';
   font-size: 18px;
-  letter-spacing: ;
   color:#30738B;
   text-align: center;
   padding:2% 2%;
@@ -114,7 +113,6 @@ body {
 
 .content{
   text-align: center;
-  text-transform: ;
   font-family: 'PT Mono';
   font-size: 15px;
   color: #ABD4DF;
@@ -160,7 +158,6 @@ footer {
 }
 
 #footer_left {
-  background: ;
 }
 
 .footer_right {
@@ -169,7 +166,6 @@ footer {
 }
 
 #footer_right {
-  background: ;
 }
 
 .footer_social {
