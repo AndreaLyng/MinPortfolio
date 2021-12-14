@@ -56,12 +56,16 @@ li a:hover {
   height: auto;
 }
 
+.animation_div {
+    overflow: hidden;
+}
+
 .ani {
   width: 500px;
   height: 500px;
+  margin: auto;
   background: url('images/frog.png') 0 0 no-repeat;
   animation: play 0.7s steps(5) infinite;
-  overflow: hidden;
 }
 
 @keyframes play {
