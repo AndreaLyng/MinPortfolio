@@ -61,6 +61,7 @@ li a:hover {
   height: 500px;
   background: url('images/frog.png') 0 0 no-repeat;
   animation: play 0.7s steps(5) infinite;
+  overflow: hidden;
 }
 
 @keyframes play {
