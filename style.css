@@ -57,7 +57,7 @@
     font-size: 15px;
     letter-spacing: 2px;
     text-align: center;
-    padding: 1% 5%;
+    padding: 1%;
   }
 
   .picture_about {
@@ -66,11 +66,6 @@
       background-color: #ABD4DF;
       display: flex;
       padding:1%;
-  }
-
-  .picture img{
-      width:100%;
-      height: auto;
   }
 
   .column img{
@@ -111,8 +106,16 @@
     font-size: 18px;
     color:#ABD4DF;
     text-align: center;
-    padding:2% 2%;
+    padding:5% 5%;
     background-color: #30738B;
+  }
+
+  .maintext2{
+    font-family: 'PT Mono';
+    font-size: 18px;
+    color:#30738B;
+    text-align: center;
+    padding:2% 2%;
   }
 
   h1{
@@ -164,6 +167,14 @@
     font-family: 'Caveat';
     font-size: 27px;
     color: #ABD4DF;
+  }
+
+  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Caveat';
+    font-size: 27px;
+    color: #30738B;
   }
 
   .flex-container {
@@ -226,6 +237,7 @@
   .footer_social a {
     color: #ABD4DF;
   }
+
   .footer_social a:hover{
   color:#E27900
   }
@@ -323,6 +335,7 @@
     flex-direction: column;
   }
 
+
   nav{
     flex-direction: column;
     align-content: center;
@@ -334,4 +347,5 @@
 
   .nav-links{
     order: 2
+  }
   }
